@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="visual.css">
+    <style>
+        table, td{
+            border: solid 1px red;
+        }
+        td{
+            padding: 30px 60px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body class="body">
+    <h1>Praticando 5 - Tabela grande com colspan e rowspan e planos de fundo</h1>
+
+    <p><a href="principal.html">Voltar ao menu principal</a></p>
+
+    <h2>Tabela com Colspan e Rowspan</h2>
+    <table>
+        <caption>Tabela grande com colspan e rowspan</caption>
+        <tr>
+            <td class="a" colspan="2">Colspan</td>
+            <td class="a">-</td>
+            <td class="a" rowspan="3">Rowspan</td>
+        </tr>
+        <tr>
+            <td class="b">-</td>
+            <td class="b">-</td>
+            <td class="b">-</td>
+        </tr>
+        <tr>
+            <td class="c">-</td>
+            <td class="c" colspan="2">Colspan</td>
+        </tr>
+        <tr>
+            <td class="d">-</td>
+            <td class="d">-</td>
+            <td class="d">-</td>
+            <td class="d">-</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+
+    <table class="padding">
+        <caption>Legenda</caption>
+        <tr>
+            <td>Linha 1</td>
+            <td class="a" rowspan="1">-------</td>
+            <td>Green</td>
+        </tr>
+        <tr>
+            <td>Linha 2</td>
+            <td class="b" rowspan="1">---------</td>
+            <td>Red</td>
+        </tr>
+        <tr>
+            <td>Linha 3</td>
+            <td class="c" rowspan="1">---------</td>
+            <td>Blue</td>
+        </tr>
+        <tr>
+            <td>Linha 4</td>
+            <td class="d" rowspan="1">---------</td>
+            <td>Yellow</td>
+        </tr>
+    </table>
+</body>
+</html>

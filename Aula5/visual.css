@@ -1,0 +1,46 @@
+.l1{
+    background-color: green;
+}
+
+.l2{
+    background-color: lightgreen;
+}
+
+.l3{
+    background-color: rgba(68, 68, 68, 0.774);
+    color: white;
+}
+
+.l4{
+    background-color: black;
+    color: white;
+}
+
+.l5{
+    background-color: rgba(128, 128, 128, 0.651);
+    color: white;
+}
+
+.body{
+    background-color: rgba(161, 242, 248, 0.884) ;
+}
+
+.a{
+    background-color: green;
+}
+
+.b{
+    background-color: red;
+}
+
+.c{
+    background-color: blue;
+}
+
+.d{
+    background-color: yellow;
+}
+
+.padding td{
+    padding: 5px;
+}

@@ -1,0 +1,43 @@
+.body{
+    background-color: rgb(218, 216, 216);
+}
+
+.p1{
+    background-color: rgb(175, 241, 250);
+}
+
+.p2{
+    background-color: rgb(245, 170, 120);
+}
+
+.txtp2{
+    color: blue;
+}
+
+span{
+    color: red;
+}
+
+.verdeclaro{
+    background-color: rgb(115, 250, 115);
+}
+
+.verdeescuro{
+    background-color: green;
+}
+
+.verdemaisescuro{
+    background-color: rgb(1, 80, 1);
+}
+
+.vermelho{
+    background-color: rgb(163, 2, 2);
+}
+
+.vermelho2{
+    background-color: red;
+}
+
+.vermelho3{
+    background-color: rgb(112, 2, 2);
+}

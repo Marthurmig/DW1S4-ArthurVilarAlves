@@ -1,0 +1,43 @@
+.botao{
+    background-color: #2b8f8f;
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.5s ease;
+}
+
+.botao:hover{
+    background-color: #388f3b;
+}
+
+.header{
+    background: #dfecec;
+    position: center;
+    width: 100%;
+    z-index: 999px;
+    box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.425);
+}
+
+.color-shifting-line {
+    height: 3px;
+    width: 100%;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, purple);
+    background-size: 300% 100%;
+    animation: shiftColors 2s linear infinite;
+}
+
+@keyframes shiftColors {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 0%;
+    }
+}
